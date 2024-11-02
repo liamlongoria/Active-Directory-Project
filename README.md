@@ -5,7 +5,7 @@ The Active Directory (AD) Project is designed to get hands-on practice to build 
 <br />
 
 
-<h2>Skills Learned</h2>
+<h2>Skills Acquired</h2>
 
 - <b>Strengthened understanding of SIEM concepts and ingestion.</b> 
 - <b>Information Technology (IT) administration through AD.</b>
