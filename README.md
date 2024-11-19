@@ -34,39 +34,47 @@ The Active Directory (AD) Project is designed to get hands-on practice to build 
 
 ![kali ipv4](https://github.com/user-attachments/assets/fb37030a-5114-4766-9203-abdce3347958)
 
+<br>
 
 **Step 2:** Installed and configured Splunk on the Splunk server granting access to the Splunk Enterprise website.
 
+<br>
 
 **Step 3:** Installed and configured Splunk Universal Forwarder and Sysmon on both the target machine as well as the Active Directory server to create telemetry between the machines.
 
 ![Inputs](https://github.com/user-attachments/assets/c5f6e7a3-38ba-46ea-a17e-5facdb9d358b)
 
+<br>
 
 **Step 4:** Created a new domain in which new organizational units and users were generated.
 
 ![ad user](https://github.com/user-attachments/assets/bb93e76c-50e8-4c6a-8689-8c0eb778c87e)
 
+<br>
 
 **Step 5:** Changed domain on target machine to newly created domain and signed in with new user account.
 
 ![jennysmith login](https://github.com/user-attachments/assets/0659fc0f-6536-465e-936d-e83272e839c0)
 
+<br>
 
 **Step 6:** Enabled Remote Desktop Protocol (RDP) on target machine.
 
 ![allow rdp](https://github.com/user-attachments/assets/404a37cf-42f8-41d6-bc58-6be50ee57f9e)
 
+<br>
 
 **Step 7:** Created a document with common passwords and added the password of the newly created user account. Then installed Crowbar, to successfully brute force password.
 
 ![passwordstxt](https://github.com/user-attachments/assets/0daa2360-af42-48f2-9e1b-37a798d9b334) ![rdp success](https://github.com/user-attachments/assets/d730e053-f56d-40f7-a547-84c3a2bf1658)![tsmith failed](https://github.com/user-attachments/assets/39997b5b-d92b-490a-aabd-6d58c68d46ef)
 
+<br>
 
 **Step 8:**  Installed Atomic Red Team with Powershell on target machine to identify gaps in visibility.
 
 ![NewLocal User ss](https://github.com/user-attachments/assets/6c7cb84f-5ade-4ed1-bce6-bcb920ad530c)
 
+<br>
 
 **Step 9:** Continued to monitor and review Splunk events.
 
